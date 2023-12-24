@@ -68,7 +68,7 @@ button{
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    position: absolute;
+    position: static;
 }
 .table{
     display: none;
