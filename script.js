@@ -20,7 +20,7 @@ button.addEventListener('click', function () {
         
         
         if( parseInt(NPM.value) < 999999999  || parseInt(NPM.value) > 9999999999){
-            alert("Nomor NPM tidak boleh kurang dari 10 digit");
+            alert("Nomor NPM tidak boleh kurang dari 10 digit, atau lebih dari 10 digit");
             return;
         } ;
 
